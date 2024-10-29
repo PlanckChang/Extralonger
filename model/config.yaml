@@ -1,0 +1,78 @@
+PEMS04:
+  num_nodes: 307
+  in_steps: 24
+  out_steps: 24
+  lr: 0.0001
+  milestones: [10, 15, 20]
+  lr_decay_rate: 0.1
+  batch_size: 16
+  max_epochs: 200
+  early_stop: 5
+
+  model_args:
+    num_nodes: 307
+    in_steps: 24
+    out_steps: 24
+    steps_per_day: 288
+    input_dim: 3
+    output_dim: 1
+    input_embedding_dim: 128
+    tod_embedding_dim: 192
+    dow_embedding_dim: 192
+    spatial_embedding_dim: 256
+    feed_forward_dim: 1024
+    num_heads: 8
+    num_layers: 1
+
+PEMS08:
+  num_nodes: 170
+  in_steps: 12
+  out_steps: 12
+  lr: 0.0001
+  milestones: [10, 15, 20]
+  lr_decay_rate: 0.1
+  batch_size: 16
+  max_epochs: 300
+  early_stop: 10
+
+  model_args:
+    num_nodes: 170
+    in_steps: 12
+    out_steps: 12
+    steps_per_day: 288
+    input_dim: 3
+    output_dim: 1
+    input_embedding_dim: 64
+    tod_embedding_dim: 64
+    dow_embedding_dim: 64
+    spatial_embedding_dim: 64
+    feed_forward_dim: 256
+    num_heads: 4
+    num_layers: 1
+
+
+SEATTLE:
+  num_nodes: 323
+  in_steps: 24
+  out_steps: 24
+  lr: 0.0001
+  milestones: [10, 15, 20]
+  lr_decay_rate: 0.1
+  batch_size: 16
+  max_epochs: 200
+  early_stop: 3
+
+  model_args:
+    num_nodes: 323
+    in_steps: 24
+    out_steps: 24
+    steps_per_day: 24
+    input_dim: 3
+    output_dim: 1
+    input_embedding_dim: 256
+    tod_embedding_dim: 128
+    dow_embedding_dim: 128
+    spatial_embedding_dim: 256
+    feed_forward_dim: 1024
+    num_heads: 8
+    num_layers: 1
