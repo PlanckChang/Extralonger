@@ -19,3 +19,15 @@ torchinfo==1.8.0
 ``` python
 nohup python train.py -i 48 -o 48 -d pems04 -g 0 -m for_train &
 ```
+
+### Citation
+```
+@inproceedings{
+zhang2024extralonger,
+title={Extralonger: Toward a Unified Perspective of Spatial-Temporal Factors for Extra-Long-Term Traffic Forecasting},
+author={Zhiwei Zhang and Shaojun E and Fandong Meng and Jie Zhou and Wenjuan Han},
+booktitle={Neurips 2024 Workshop Foundation Models for Science: Progress, Opportunities, and Challenges},
+year={2024},
+url={https://openreview.net/forum?id=hE3vlUiyfS}
+}
+```
