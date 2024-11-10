@@ -1,6 +1,6 @@
 # Extralonger: Toward a Unified Perspective of Spatial-Temporal Factors for Extra-Long-Term Traffic Forecasting
 
-This is the official repo for the NeurIPS 2024 Workshop Paper **Extralonger: Toward a Unified Perspective of Spatial-Temporal Factors for Extra-Long-Term Traffic Forecasting**.
+This is the official repo for the NeurIPS 2024 Workshop Oral Paper **Extralonger: Toward a Unified Perspective of Spatial-Temporal Factors for Extra-Long-Term Traffic Forecasting**.
 ## Installation
 
 - python = 3.10.10
