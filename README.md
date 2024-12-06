@@ -31,3 +31,8 @@ year={2024},
 url={https://openreview.net/forum?id=hE3vlUiyfS}
 }
 ```
+
+### Acknowledge
+Our code implementation is forked from the [STAEformer repository](https://github.com/XDZhelheim/STAEformer). We sincerely appreciate their work.
+
+
